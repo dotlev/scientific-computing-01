@@ -81,6 +81,8 @@ Please make sure to complete the exercises from week 1 before this class.
 [Modules and Packages](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class3_modules.md)
 Please make sure to complete the exercises from week 2 before this class.
 
+[Lecture video](https://youtu.be/-zNK3N-hYyg)
+
 #### Content of the class
 1) Working with modules/libraries
 - Know what a module is and how to import and use them in Python
@@ -94,7 +96,7 @@ Please make sure to complete the exercises from week 2 before this class.
 <!-- import i R -->
 
 
-<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt 
+<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt
 
 best practice med modules: docstrings, type hints, iterative development (små funktioner)
 modules: os, time, numpy (pandas)
@@ -105,54 +107,67 @@ virtual environments (step by step guide)
 
 ### Lesson 4: Object-Oriented Programming
 <!-- IM -->
-**Time**: Monday, March 14, 08.00-10.00
+**Time (UPDATED)**: Monday, March 21, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**: Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
+**Readings before class**:
+- Phillips 2015, chp 1, [Object-oriented Design](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-01.pdf)
+- Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
+- Watch [last week's lecture](https://youtu.be/-zNK3N-hYyg)
 
 #### Content of the class:
 1) Object Oriented Design (OOD) and UML diagrams
  - How to structure our programming.
 
 2) Object Oriented Programming (OOP)
--  Implementation of our desings
+-  Implementation of our designs
 
 <!-- https://python.astrotech.io/design-patterns/uml/class-diagram.html -->
 <!-- * Agent-based models -->
 
 ---
-### Lesson 5: Projects and Iterative development and Projects
+### Lesson 5: Projects and Iterative development
 <!-- kenneth -->
 
-**Time**: Monday, March 21, 08.00-10.00
+**Time (UPDATED)**: Monday, March 28, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**:
-* iterative development
+**Readings before class**: [Iterative development](readings/class4_iterative_devolopment.md)
 
+#### Content of the class
 
-defensive design, debugging
+* Question/Overview of readings
+* Introduction to the debugger in VS code
+* [exercises](classes/class5.md) on a project
 
-* assertion
-
- ---
+<!-- Plan:  -->
+---
 
 ### Lesson 6: collaborative distributed version control
 <!-- kenneth -->
-**Time**: Monday, March 28, 08.00-10.00
+
+**Time (UPDATED)**: Monday, April 04, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**:
+**Before class**:
+- Read [Introduction to Git](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/introduction-to-git.md)
+- Create a [GitHub user](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwig2fnl_JL2AhUNPuwKHSCRAlsQFnoECAcQAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)
+- Finalize code from last time. It will be used in this class.
+
+**Optional before class**: [Install git](https://docs.github.com/en/get-started/quickstart/set-up-git) on your local laptop
 
 
-* git
-* project templates
-* repositories
+#### Content of the class
 
+* git and GitHub
+* the .gitignore
+* Branches
+* Pull requests
 
+*Note*: We will not spent too much time going over git basics to please read before the class.
 
 
 ## Literature
